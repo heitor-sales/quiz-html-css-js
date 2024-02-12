@@ -4,8 +4,6 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  /*usar a fonte Inter. caso a fonte anterior não seja encontrada, será usada 
-  a fonte sans-serif*/
   font-family: 'Inter', sans-serif;
   font-synthesis: none;
   text-rendering: optimizeLegibility;
@@ -21,15 +19,10 @@ body{
 #acertos{
   text-align: center;
   background-color: #A3E635;
-  /*fixando o indicador de acertos no fim da página*/
   position: fixed;
   bottom: 0;
-  /*colando na esquerda*/
   left: 0;
-  /*setando a largura*/
   width: 100%;
-  /*setando a espessura. coloando 12px para todas as direções
-  da "caixa"*/
   padding: 12px;
 }
 
